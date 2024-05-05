@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+#nav-bar{
+    padding: 8px;
+    
+}
+
+
+#bannar{
+    width: 100%;
+}
+#bannar{
+    object-fit: cover;
+}
+#about{
+    display: flex;
+}
+#description{
+    width: 60%;
+}
+#Team{
+    width: 40%;
+}
+#nav-barr
+#Description{
+    width: 60%;
+}
+#team{
+    width: 40%;
+}

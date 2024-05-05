@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Css Box Model</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        #container {
+            width: 100%;
+        }
+
+        #text {
+            width: 60%;
+            float: left;
+            padding: 0;
+            margin: 0;
+            border: 1px;
+        }
+
+        #image {
+            width: 40%;
+            float: right;
+            padding: 0;
+            margin: 0;
+        }
+        .apply{
+            float: right;
+        }
+        h3{
+            margin-top: 0;
+            margin-bottom: 4px;
+        }
+        #location{
+            margin-bottom: 16px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #footer-link {
+            list-style: none;
+            margin: 80px;
+            display:flex;
+            
+        }
+        #footer{
+            background-color: ghostwhite;
+            padding: 4px;
+            margin-top: 32px;
+            text-align: center;
+
+        
+        }
+        h2{
+            padding-top: 5px;
+            margin-top: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://i.imgur.com/m1wXjqw.png" alt="logo" height="30">
+    <img src="bannar.jpg" alt="bannar" height="500" width="100%">
+    <h1>About Jovian</h1>
+    <div id="container">
+        <div id="text">
+            <p>
+                At Jovian,we are on a mission to build the world's most highly reputed technical
+                university,and we're building completely online. We offer several beginner friendly
+                courses that are taken by<b>300000+</b> registered users.
+            </p>
+            <p>We also offer 2 industry-focused bootcamps:</p>
+            <div>
+                <ol>
+                    <li><a href="https//www.jovian.com/full-stack-developer" target="_blank">
+                            Jovian Full Stack Developer </a></li>
+                    <li><a href="https//www.jovian.com/data-science" target="_blank">
+                            Jovian Data Science</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div id="image">
+            <img src="banar.jpg" alt="banar" height="200" width="300">
+        </div>
+    </div>
+   <h2 style="text-align: center; color: darkblue;">Job Opportunities</h2>
+   <div class = "jobs">
+    <div>
+        <a href=""class="apply">Apply</a>
+    <h3 >Frontend Developer</h3>
+    <div id ="location">Bengaluru,India</div>
+    </div>
+    <div>
+        <a href=""class="apply">Apply</a>
+    <h3 >Backend Developer</h3>
+    <div id ="location">Mumbai,India</div>
+    </div>
+    <div>
+        <a href=""class="apply">Apply</a>
+    <h3>Data Scientist</h3>
+    <div id ="location">Dehli,India</div>
+    </div>
+    </div>
+    <div id="footer">
+        <ul id="footer-link">
+            <li>
+                <a href="https//www.jovian.com/learn" target="_blank">
+                    Courses
+                </a>
+            </li>
+            <li >
+                <a href="https//www.jovian.com/learn" target="_blank">Programs</a>
+            </li>
+            <li >
+                <a href="https//www.jovian.com/learn" target="_blank">Youtube</a>
+            </li>
+            </ul>
+        <span>© 2023,Jovian</span>
+        
+    </div>
+
+</body>
+
+</html>
